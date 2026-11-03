@@ -1,0 +1,36 @@
+INDEX
+
+CREATE
+!!! pada tombol tanda tanya di sebelum inputan jenis, warna tema belum sesuai dengan tema default/tema yang digunakan jika ada, begitu juga dengan live previewnya (slogan,ghp,hero,)
+Section slider, peta, line tidak terpengaruh tema
+
+DETAIL
+ket: 
+tidak ada modal form (input file) untuk delete img
+tidak ada warning untuk edit img di controller
+jika error maka refresh page
+alert modal validasi ubah data saat data null belum bener,
+hanya ada fungsi reloadData Hero, Slider, Ghp, 
+untuk tagline, map, garis, langsung masuk ke handle
+gambar di ikon detail ada radius pojoknya
+
+fixed bug: 
+ukuran section sudah berubah ketika edit tagline, peta, line, hero, ghp, slider
+modal edit data (slogan, peta, ghp, hero) saat warning sudah di benerin
+setelah edit/delete img yang idnya tidak ditemukan maka swetalert aman. Ini masuk catch ada respon icon error
+saat id tidak ditemukan di findOrFail sudah muncul 404 tampilan error yang sudah dibuat Fadil
+name pada tagline dan text_hero pada hero jika input panjang tanpa spasi maka tulisan sudah berada di samping.
+Warna tema belum sesuai dengan default/yang digunakan (slogan,ghp,hero,)
+Section slider, peta, line terpengaruh tema hanya di background saja. [create, preview].
+Cuma h1, fs-1 dst terpengaruh
+
+bug: 
+none
+
+incomplete: 
+-Tutorial input peta di create dan edit belum perfect
+-home utama
+ + kurang di Tim Kami (gambar dan link)
+
+need action:
+!!! benerin 2 incomplete di atas

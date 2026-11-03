@@ -1,0 +1,436 @@
+body {
+    /* white-space: pre-wrap; */
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
+}
+
+/* Custom SweetAlert2 */
+.swal2-title {
+    color: #000 !important;
+}
+
+.swal2-confirm {
+    background-color: #05689F !important;
+}
+
+/* Local Library */
+.z-index-1 {
+    z-index: 9999;
+}
+
+.z-index-2 {
+    z-index: 999;
+}
+
+.z-index-3 {
+    z-index: 99;
+}
+
+.z-index-4 {
+    z-index: 9;
+}
+
+.sidebar {
+    min-height: 100vh;
+    height: 100%;
+    /* Atur tinggi sidebar sesuai kebutuhan */
+    /* max-height: 300px; */
+    position: relative;
+    width: 255px;
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);  */
+    /* border: 1px solid #ea1111; */
+    background-color: #05689f;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1000;
+    /*kanan bawah blur tebal-shadow rgba(warna, transparansi)*/
+
+    /* Untuk browser yang mendukung CSS Scrollbars Module Level 1 (Firefox) */
+    scrollbar-width: thin !important;
+    /* Untuk Firefox */
+    scrollbar-color: #ffffff transparent !important;
+    /* Warna scrollbar untuk Firefox */
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 1px !important;
+    /* Lebar scrollbar untuk Chrome, Safari, dan Edge */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #ffffff !important;
+    /* Warna thumb scrollbar */
+    border-radius: 10px !important;
+    /* Sudut lengkung thumb scrollbar */
+    border: 2px solid transparent !important;
+    /* Tambahkan border transparan untuk memastikan radius */
+    background-clip: padding-box !important;
+    /* Memastikan radius terlihat */
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent !important;
+    /* Warna track scrollbar */
+}
+
+.sidebar::-webkit-scrollbar-button {
+    display: none !important;
+    /* Hilangkan tombol panah pada scrollbar */
+}
+
+.col-sendiri {
+    flex: 0 0 auto;
+}
+
+.text-black-sendiri {
+    color: #000 !important;
+}
+
+/* .w-sidebar {
+    width: 255px;
+} */
+
+.w-content {
+    width: calc(100% - 255px);
+    /* width: calc(100%);
+    width: 100%; */
+}
+
+.shadow-sidebar {
+    box-shadow: -1px 0px 23px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-fixed {
+    position: fixed;
+    z-index: 999;
+    /* padding-right: 255px; */
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.card.shadow.bg-light.text-dark {
+    border: none;
+}
+
+.div-tombol-silang {
+    position: fixed;
+    z-index: 1000;
+    /* top: 9px; */
+    top: -100px;
+    left: 265px;
+    padding: 0;
+    /* background: black; */
+    width: fit-content;
+    height: fit-content;
+}
+
+.space-sidebar {
+    width: 255px;
+    height: max-content;
+}
+
+.navbar {
+    background-color: #80cef9;
+}
+
+.logo {
+    width: 45px;
+    /* padding-right: 10px; */
+    margin-left: 0px;
+    /* margin-right: 15px; */
+    display: block;
+    /* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3); */
+}
+
+.sidebar-hilang-nama-sekolah {
+    margin-left: 13px;
+    opacity: 1;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.sidebar-hilang {
+    margin-left: 13px;
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    position: absolute;
+}
+
+.sidebar-hilang-dropdown {
+    /* margin-left: 107px; */
+    left: 85%;
+    /* top: 21%; */
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    position: absolute;
+}
+
+.sidebar-hide {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.sidebar-show {
+    opacity: 1;
+    /* transform: translateX(10px); */
+}
+
+.logo-nama-sekolah {
+    margin-top: 10px;
+    margin-bottom: -3px;
+    /* border: 1px solid #000000 */
+}
+
+.nama-sekolah {
+    margin-left: 15px;
+}
+
+.burger-menu {
+    margin: -7px;
+}
+
+.active {
+    padding-right: -10px;
+}
+
+.dashboard-menu {
+    margin-bottom: 35px;
+}
+
+.dataTables_length {
+    margin-bottom: 10px;
+    /* Atur margin bawah sesuai kebutuhan */
+}
+
+.dataTables_paginate {
+    margin-bottom: 12px;
+    /* Atur margin bawah sesuai kebutuhan */
+}
+
+#pdfViewer {
+    display: none;
+}
+
+.card-file {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    width: 425px;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .card-file {
+        width: 100%;
+    }
+
+    .embed-responsive-item {
+        width: 95%;
+        height: auto;
+    }
+
+    .pdf-page {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+
+.pdf-page {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.aktif {
+    padding: 5px 12px;
+    border-radius: 8px;
+    color: #28a745;
+    /* Warna teks hijau */
+    background-color: #e7f7e1;
+    /* Warna latar belakang hijau yang lembut */
+    border: 1px solid #c3e6cb;
+    /* Warna border */
+    display: inline-block;
+}
+
+.tidak-aktif {
+    padding: 5px 12px;
+    border-radius: 8px;
+    color: #dc3545;
+    /* Warna teks merah */
+    background-color: #f8d7da;
+    /* Warna latar belakang merah muda */
+    border: 2px solid #f5c6cb;
+    /* Warna border merah muda */
+    display: inline-block;
+}
+
+.embed-responsive-item {
+    width: 100%;
+    max-width: 420px;
+    height: 568px;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.position-absolute {
+    margin-top: 81px;
+
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .30rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+    padding: 0.5rem 0;
+    min-width: 130px;
+    max-height: 200px;
+    margin-left: 118px;
+    overflow-y: auto;
+}
+
+.dropdown-item {
+    color: #212529;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-item .dropdown-toggle::after {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-bawah-burger-menu {
+    color: #05689f !important;
+}
+
+.tombol-silang:hover {
+    cursor: pointer;
+}
+
+.sidebar-nonaktif {
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+.sidebar-nonaktif:hover {
+    color: black;
+    /* Mengubah warna teks menjadi hitam saat cursor berada di atas elemen <li> */
+    background-color: lightgray;
+}
+
+.div-tombol-silang {
+    visibility: visible;
+    border-radius: 9px;
+}
+
+.bi-x-square.fs-2.btn.btn-light {
+    border: none;
+}
+
+.menu-close {
+    display: block;
+}
+
+.menu-open,
+.menu-open-layar-kecil {
+    display: none;
+}
+
+.rotated-90deg {
+    transform: rotate(90deg);
+    /* atau rotate(270deg) untuk mengarah ke bawah */
+    transition: transform 0.3s ease;
+}
+
+.hover-text-black:hover {
+    color: black !important;
+}
+
+/* .sidebar-super-admin{
+    
+} */
+/* STYLE ADMIN SECTION ADA DI style-section.css*/
+/* kalau mau nambah style sendiri pakai nama style-namaprefix.css */
+/* nanti kalau ada perubahan seperti jadi 1 file css lebih mudah */
+/* juga kalau ada nama class yang sama bisa diubah namanya lebih detail */
+/* misal img ganti jadi galery-img atau apa class nya biar ga bentrok */
+
+
+/* style untuk tulisan tetap di samping  */
+.text-full-display {
+    white-space: nowrap !important;
+    /* Mencegah teks membungkus ke baris baru */
+}
+
+.aksi-2 {
+    min-width: 87px !important;
+    max-width: 87px !important;
+}
+.aksi-3 {
+    min-width: 131px !important;
+    max-width: 131px !important;
+}
+.aksi-4 {
+    min-width: 181px !important;
+    max-width: 181px !important;
+}
+
+.th-no {
+    width: 63px !important;
+    min-width: 63px !important;
+    max-width: 63px !important;
+}
+
+.th-status-aktif {
+    min-width: 87px !important;
+    max-width: 97px !important;
+}
+
+.th-jenis-section {
+    min-width: 77px !important;
+    max-width: 137px !important;
+}
+
+/* efek saat width <=991 atau <992 */
+@media (max-width: 992px) {
+    .div-tombol-silang {
+        visibility: visible;
+    }
+
+    .sidebar {
+        left: -255px;
+    }
+
+    .menu-open,
+    .menu-close {
+        display: none;
+    }
+
+    .menu-open-layar-kecil {
+        display: block;
+    }
+}
+

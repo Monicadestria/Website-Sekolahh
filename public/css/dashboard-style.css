@@ -1,0 +1,92 @@
+.card-dashboard-white {
+ color: white !important;
+ box-shadow: 0px 20px 17px -10px rgba(0, 0, 0, 0.3);
+ transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.card-dashboard-white:hover {
+ box-shadow: 0px 35px 7px -20px rgba(0, 0, 0, 0.3);
+ transform: translateY(-5px);
+}
+
+.text-card {
+ width: fit-content;
+ margin-right: 10px;
+}
+
+.div-icon-card-dashboard {
+ margin-top: -20px;
+ margin-bottom: -15px;
+}
+
+.icon-card-dashboard {
+ font-size: 70px;
+}
+
+.more-info-staf {
+ border: none !important;
+ background-color: rgba(0, 6, 166, 0.9);
+}
+
+.card-header-staf {
+ background-color: rgba(0, 6, 166, 1);
+ padding-bottom: 30px;
+}
+
+.more-info-staf:hover {
+ background-color: rgba(0, 6, 166, 0.8) !important;
+}
+
+.more-info-berita {
+ border: none !important;
+ background-color: rgba(18, 128, 0, 0.9);
+}
+
+.card-header-berita {
+ background-color: rgba(18, 128, 0, 1);
+ padding-bottom: 30px;
+}
+
+.more-info-berita:hover {
+ background-color: rgba(18, 128, 0, 0.8) !important;
+}
+
+.more-info-galeri {
+ border: none !important;
+ background-color: rgba(208, 201, 0, 0.9);
+}
+
+.card-header-galeri {
+ background-color: rgba(208, 201, 0, 1);
+ padding-bottom: 30px;
+}
+
+.more-info-galeri:hover {
+ background-color: rgba(208, 201, 0, 0.8) !important;
+}
+
+.more-info-unduh {
+ border: none !important;
+ background-color: rgba(208, 0, 0, 0.9);
+}
+
+.card-header-unduh {
+ background-color: rgba(208, 0, 0, 1);
+ padding-bottom: 30px;
+}
+
+.more-info-unduh:hover {
+ background-color: rgba(208, 0, 0, 0.8) !important;
+}
+
+.card-footer {
+ height: 30px;
+ line-height: 15px;
+}
+
+/* efek saat ukuran width <575px */
+@media (max-width: 575px) {
+ .div-icon-card-dashboard {
+  display: none !important;
+ }
+}

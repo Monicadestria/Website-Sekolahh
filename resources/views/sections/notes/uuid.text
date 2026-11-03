@@ -1,0 +1,118 @@
+39064321-80d2-4dba-a4e6-a0117c86ee69 ... GalerySeeder
+590178b8-314f-4521-8b3e-41a1a3f5f183 ... GalerySeeder
+6ff24144-d443-48de-b20b-d91cf45d61c2 ... GalerySeeder
+888658eb-eb8c-40b9-90ff-f4ff394ce031 ... DownloadSeeder
+a1564b4d-0308-49dd-b078-3fbae589fc28 ... DownloadSeeder
+ebffa6e0-c8e1-4df8-9590-32a32e5792f7 ... DownloadSeeder
+0bf9b85a-346f-408e-bc58-af1fae321741 ... BeritaSeeder
+4d254f12-9668-4a58-a59c-c0cb72df25a5 ... BeritaSeeder
+9762e232-cfc1-4a44-9f9c-633bc75d9b8f ... BeritaSeeder
+d8a5edf8-0b02-48b4-b0f5-d2a997317d15 ... StafSeeder
+ee097ce4-5703-402f-8ab7-96469809ff41 ... StafSeeder
+0636a631-52ae-3247-9f30-2513fdebf3ab ... StafSeeder
+
+14785dc9-d65d-4a84-8c9f-5b0a0d564b37 ... SectionSeeder
+20a77ec6-8edf-4b90-8df9-1dc535f9431d ... SectionSeeder
+42d1ec88-ae55-4cad-897d-d121cfe24551 ... SectionSeeder
+96bcf831-ae7c-4010-86dc-cf8ae026e07d ... SectionGhpSeeder
+e9c3c57c-5435-422f-8a9b-c80a56023a2d ... SectionGhpHeadSeeder
+
+51b5173a-4eaf-4823-9aea-6cf5ce20712d ... master - staf
+938881ac-80b2-40a0-b724-107d067a7b84 ... master - staf
+c9ded687-9aab-4abd-b98a-a533c5f993cc ... master - staf
+3badf18c-7d88-452b-be4e-3de5be488d87 ... master - berita
+43a08e13-1613-4775-ae05-caa5a8cf47bd ... master - berita
+85fbd717-4046-495b-afc1-6abb4d63622b ... master - berita
+2494acd2-9bc5-4bf2-8ef9-6b28bdb7d4b6 ... master - galeri
+c7195f72-ddd6-4b50-b169-6cd4f1504e6a ... master - galeri
+8c79c2f1-5b34-4cf4-b2ef-d1b716255d77 ... master - galeri
+d5d61a64-9512-4929-8408-42e997e9a137 ... master - unduh
+3bfc8b61-dba6-4ada-99f8-3a2d20b29e48 ... master - unduh
+0b2241a7-5011-43f5-8a03-5dfb77d05ee9 ... master - unduh
+0362980b-b997-4186-a15b-6e0f6cc497f4 master staf
+c01411f3-7d23-49c6-9ea3-4a54f2accf22 master berita
+1845407f-fc7d-47b1-b1f2-6603d446bcf7 master galeri
+5979873e-f96f-42d9-b5fe-e60e84e74209 master unduh
+04acc075-2108-4563-9da2-81dd485a17da
+6ed3348d-2b4b-4a22-a4c2-feab81cf62a3
+377e4269-e8fc-4e96-af3e-9f4ad35f8136
+5ec93ae4-8637-46bc-bc17-388fddc3dcd7
+
+yang ada tanda ..... sudah terpakai
+dipakai untuk id yg ada foreign key
+
+--- NEXTT PROGRESSS ---
+Create Section: img preview pada hero, slide show, dan ghp belum bisa banyak
+Detail Section: tampilan untuk tombol"nya di setiap section
+Modul Dashboard:
+ Ganti dashboard jadi:
+ ____ ____ _________
+ |  | |  | |       |
+ ---- ---- |       |
+ |  | |  | |       |
+ ---- ---- ---------
+
+$$$ INCOMING FEATURE $$$
+ukuran section: layar penuh, besar, sedang, kecil
+Tombol pratinjau section untuk melihat preview inputan sebelum disimpan
+
+
+??? QUESTION ???
+1. Saat delete section, urutan yang didelete akan negatif dengan nilai acak, lalu urutan section data di bawahnya akan naik (-1), tetapi saat data yang didelete dibackup maka akan menjadi urutan terakhir bukan kembali ke urutan semula juga status off, apakah sebaiknya urutan kembali ke no urut semula saat di backup? 
+Jika ya, berarti nambah field untuk menyimpan nomor urut lama yang nantinya saat diback up akan kembali ke no urut lama dan nomor urut di bawahnya akan (+1) turun, karena jika tidak diberi no urut lama maka saat mengedit section dengan urutan di bawahnya urutan tidak sama dengan no pada tabel
+
+
+
+CRUD AJAX JEQUERY
+
+ const loading = $('#loading');
+
+  (() => {
+   'use strict'
+
+   const forms = $('.needs-validation')
+
+   let bool = false;
+   Array.from(forms).forEach(form => {
+    form.dataset.submitted = bool;
+    console.log(form.dataset.submitted);
+
+    const textInputs = form.querySelectorAll('input[type="text"]');
+    textInputs.forEach(input => {
+     input.addEventListener('input', () => {
+      if (input.value.trim() === '') {
+       if (form.dataset.submitted === 'true') {
+        form.classList.remove('was-validated')
+        input.classList.remove('is-valid');
+        input.classList.add('is-invalid');
+       }
+      } else {
+       if (form.dataset.submitted === 'true') {
+        form.classList.add('was-validated')
+        input.classList.remove('is-invalid');
+        input.classList.add('is-valid');
+       }
+      }
+     });
+    });
+
+    form.addEventListener('submit', event => {
+     const inputs = form.querySelectorAll('input[type="text"]');
+     inputs.forEach(input => {
+      input.value = input.value.trim();
+     });
+
+     if (!form.checkValidity()) {
+      event.preventDefault()
+      event.stopPropagation()
+     }
+     if (form.dataset.submitted === 'true') {
+      form.classList.add('was-validated');
+     }
+
+     bool = true;
+    }, true);
+
+
+   })
+  })()

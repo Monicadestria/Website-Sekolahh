@@ -1,0 +1,72 @@
+[07-Mar-2024 07:18:42 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-Mar-2024 07:18:42 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-Mar-2024 07:18:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 06:55:21 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 06:55:21 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 06:55:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 06:55:27 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 06:55:27 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 06:55:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 07:46:14 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 07:46:14 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[08-Mar-2024 07:46:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[02-May-2024 08:22:48 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[02-May-2024 08:22:48 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[02-May-2024 08:22:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[03-May-2024 17:13:34 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[03-May-2024 17:13:34 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[03-May-2024 17:13:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[06-May-2024 04:36:42 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[06-May-2024 04:36:42 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[06-May-2024 04:36:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[06-May-2024 04:38:24 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[06-May-2024 04:38:24 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[06-May-2024 04:38:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:52:56 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:52:56 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:52:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:58:22 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:58:22 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:58:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:58:27 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:58:27 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 08:58:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 09:26:39 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 09:26:39 UTC] PHP Warning:  require(/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34
+[07-May-2024 09:26:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/denr1863/public_html/sl.vetencode.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/denr1863/public_html/sl.vetencode.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/denr1863/public_html/sl.vetencode.com/public/index.php on line 34

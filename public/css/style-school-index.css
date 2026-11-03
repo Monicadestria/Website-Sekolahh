@@ -1,0 +1,157 @@
+body {
+ font-family: 'Poppins', sans-serif;
+}
+
+.w-27-rem {
+ width: 27rem;
+}
+
+.divider {
+ position: relative;
+ width: 100%;
+ height: 175px;
+ overflow: hidden;
+ z-index: 0;
+}
+
+.divider svg {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+@keyframes glow {
+
+ 0%,
+ 100% {
+  box-shadow: 0 0 5px rgba(255, 118, 90, 0);
+ }
+
+ 60% {
+  box-shadow: 0 0 5px rgba(255, 118, 90, 0);
+ }
+
+ 30% {
+  box-shadow: 0 0 9px 3px rgb(14, 165, 233);
+ }
+}
+
+.glow-animation {
+ animation: glow 5s infinite;
+}
+
+.svg-shadow-white {
+ filter: drop-shadow(0 0 9px rgba(255, 255, 255, 0.578));
+}
+
+.svg-shadow-sky {
+ filter: drop-shadow(0 0 13px rgba(177, 232, 254, 0.896));
+}
+
+.w-80-persen {
+ width: 80% !important;
+}
+
+#navbar {
+ z-index: 101;
+}
+
+.gambar-anak-baca-buku{
+ min-width: 13rem !important;
+}
+
+
+
+/************************/
+/*        ALERT         */
+/************************/
+
+.alert {
+ max-width: 90%;
+ /* Adjust as needed */
+ z-index: 100;
+ animation: alert-glow 1.5s infinite alternate;
+}
+
+@keyframes alert-glow {
+ 0% {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ 100% {
+  box-shadow: 0 0 27px var(--alert-glow-color);
+ }
+}
+
+.alert-success {
+ --alert-glow-color: rgba(76, 222, 51, 0.8);
+ /* Tailwind green-400 */
+}
+
+.alert-warning {
+ --alert-glow-color: rgba(253, 206, 51, 0.8);
+ /* Tailwind yellow-400 */
+}
+
+.alert-error {
+ --alert-glow-color: rgba(252, 90, 90, 0.8);
+ /* Tailwind red-400 */
+}
+
+/************************/
+/*       Tim Kami       */
+/************************/
+
+.slider-1 .slider-container {
+ position: relative;
+}
+
+.slider-1 .swiper-container {
+ position: static;
+ width: 86%;
+ text-align: center;
+}
+
+.slider-1 .swiper-button-prev:focus,
+.slider-1 .swiper-button-next:focus {
+ /* even if you can't see it chrome you can see it on mobile device */
+ outline: none;
+}
+
+.slider-1 .swiper-button-prev {
+ left: -14px;
+ background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23707375'%2F%3E%3C%2Fsvg%3E");
+ background-size: 18px 28px;
+}
+
+.slider-1 .swiper-button-next {
+ right: -14px;
+ background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23707375'%2F%3E%3C%2Fsvg%3E");
+ background-size: 18px 28px;
+}
+
+.slider-1 .card {
+ position: relative;
+ border: none;
+ background-color: transparent;
+}
+
+.slider-1 .card-image {
+ width: 135px;
+ height: 135px;
+ margin-right: auto;
+ margin-bottom: 1.25rem;
+ margin-left: auto;
+ border-radius: 50%;
+ background: white;
+}
+
+.slider-1 .testimonial-author {
+ margin-bottom: 0;
+ color: #252c38;
+ font-weight: 700;
+ font-size: 1rem;
+ line-height: 1.5rem;
+}

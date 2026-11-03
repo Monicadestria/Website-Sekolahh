@@ -1,0 +1,32 @@
+
+php artisan make:model Section -ms
+php artisan make:model SectionSlider -ms
+php artisan make:model SectionMap -ms
+php artisan make:model SectionImg -ms
+php artisan make:model SectionGhp -ms
+php artisan make:model SectionTagline -ms
+php artisan make:model SectionGhpImg -ms
+php artisan make:model SectionGhpHead -ms
+php artisan make:model SectionGhpParagraf -ms
+
+setiap tabel ada:
+model, migration, seeder,
+tapi contrller hanya sebagian:
+SectionController, 
+
+foreign key samakan dengan nama tabel parentnya,
+misal pada tabel SectionGhpParagraf:
+id, section_ghp_id
+karena laravel otomatis bisa cari sendiri -+ gitu
+
+tabel parent kasih hasOne / hasMany
+tabel turunannya kasih belongsTo
+
+Section, SectionSlider, SectionMap, SectionImg, SectionGhp,SectionTagline SectionGhpImg, SectionGhpHead, SectionGhpHeadParagraf,
+
+
+ /* .pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+ } */

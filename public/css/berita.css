@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+}
+
+.header {
+    background-color: #ceeeff;
+    padding: 5px;
+}
+
+.header h4 {
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #ceeeff;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact i {
+    margin-right: 10px;
+}
+
+.contact p {
+    margin: 0; /* Hapus margin bawaan dari teks */
+}
+
+.icon {
+    display: flex;
+}
+
+.icon i {
+    margin-right: 10px;
+    padding: 10px; /* Menambahkan ruang di sekitar ikon */
+    background-color: white; /* Memberikan latar belakang putih */
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.line hr {
+    width: 95%;
+    border: 1px solid rgb(53, 47, 47);
+}
+
+.footer-desc .row {
+    margin-left: 3rem;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: black !important;
+}
+
+#news-list,
+#other-news-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    width: 100%; /* Adjust this to your layout needs */
+    margin-bottom: 20px;
+}
+
+#news-section {
+    display: flex;
+}
+
+#not-found,
+#loading {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ececec;
+  /*------------ 
+    background: linear-gradient(291deg, #0004a0, #000252, #0056df, #02ace1, #4500e1);
+    background-size: 1000% 1000%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    ------------*/
+}
+
+/*------------
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 20%}
+  50%{background-position:100% 81%}
+  100%{background-position:0% 20%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 20%}
+  50%{background-position:100% 81%}
+  100%{background-position:0% 20%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 20%}
+  50%{background-position:100% 81%}
+  100%{background-position:0% 20%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 20%}
+  50%{background-position:100% 81%}
+  100%{background-position:0% 20%}
+}  
+------------*/
+
+/*------------ Login container ------------*/
+.swal2-confirm {
+  background-color: #05689F !important ;
+  border:none;
+}
+.box-area {
+  width: 920px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box {
+  padding: 25px 30px 30px 30px;
+  background-color: #80cef9;
+  border-radius: 10px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder {
+  font-size: 16px;
+}
+
+.rounded-3 {
+  border-radius: 7px;
+}
+
+.rounded-4 {
+  border-radius: 10px;
+}
+.rounded-5 {
+  border-radius: 20px;
+}
+
+.left-box img {
+  height: auto !important;
+  width: 100%;
+}
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+    width: 90%;
+  }
+
+  .right-box {
+    order: 1;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+
+  .left-box .copy {
+    display: none;
+  }
+  .left-box img {
+    max-height: 250px;
+    width: 100%;
+  }
+}
+
+/*------------ Input Field ------------*/
+
+*,
+*:focus {
+  outline: none;
+}
+
+.form-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+.form-item input {
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 41px;
+  background: transparent;
+  border: solid 1px #000;
+  transition: all 0.3s ease;
+  padding: 0 15px;
+}
+/* Menangani autofill browser */
+.form-item input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+  box-shadow: 0 0 0 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-item input:focus {
+  border-color: blue;
+}
+.form-item label {
+  position: absolute;
+  cursor: text;
+  z-index: 2;
+  top: 13px;
+  left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #80cef9;
+  padding: 0 10px;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+.form-item input:focus + label,
+.form-item input:valid + label,
+.form-item input:not(:placeholder-shown) + label {
+  font-size: 12px;
+  top: -5px;
+  
+}
+
+.form-item input:focus + label {
+  color: blue;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.regulasi {
+  font-size: 14px;
+  font-weight: 520;
+  color: blue;
+  text-decoration: none;
+}
+.invalid-feedback {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.invalid-border {
+  border-color: red !important;
+}
+.text-danger{
+  font-size: 0.75rem;
+}
+
+.invalid-border {
+  border-color: red !important;
+}
+

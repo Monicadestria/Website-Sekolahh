@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font: 16px/1.6 arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    float: left;
+}
+header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 190px;
+}
+.header {
+    background-color: #ceeeff;
+    height: 80px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Menengahkan container */
+    gap: 20px; /* Jarak antara kolom */
+}
+
+/* Kolom kiri dan kanan */
+.column {
+    flex: 1; /* Membuat kedua kolom memiliki lebar yang sama */
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.footer {
+    background-color: #ceeeff;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact i {
+    margin-right: 10px;
+}
+
+.contact p {
+    margin: 0; /* Hapus margin bawaan dari teks */
+}
+
+.icon {
+    display: flex;
+}
+
+.icon i {
+    margin-right: 10px;
+    padding: 10px; /* Menambahkan ruang di sekitar ikon */
+    background-color: white; /* Memberikan latar belakang putih */
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.line hr {
+    width: 95%;
+    border: 1px solid rgb(53, 47, 47);
+}
+
+.footer-desc .row {
+    margin-left: 3rem;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: black !important;
+}
